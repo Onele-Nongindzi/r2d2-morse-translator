@@ -1,4 +1,4 @@
-R2-D2 Morse Code Translator
+## R2-D2 Morse Code Translator
 Mission Briefing
 This web-based Morse Code Translator helps R2-D2 encode and decode secret Rebel Alliance messages. It converts text to Morse code and vice versa, with droid-like beeps for an immersive experience.
 Features
