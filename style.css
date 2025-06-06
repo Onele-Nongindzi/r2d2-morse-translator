@@ -13,13 +13,13 @@ body {
     background: #2a2a2a;
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    box-shadow: 0 0 20px rgba(255, 153, 0, 0.3);
     max-width: 600px;
     width: 90%;
 }
 h1 {
     text-align: center;
-    color: #00ffff;
+    color: #ff9100;
     font-size: 2rem;
     margin-bottom: 1.5rem;
 }
@@ -28,14 +28,14 @@ textarea {
     height: 100px;
     background: #3a3a3a;
     color: #e0e0e0;
-    border: 1px solid #00ffff;
+    border: 1px solid #ff7b00;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 1rem;
     resize: none;
 }
 button {
-    background: #00ffff;
+    background: #ffa600;
     color: #1a1a1a;
     border: none;
     padding: 10px 20px;
@@ -45,7 +45,7 @@ button {
     font-weight: bold;
 }
 button:hover {
-    background: #00cccc;
+    background: #cc7a00;
 }
 .output {
     background: #3a3a3a;
