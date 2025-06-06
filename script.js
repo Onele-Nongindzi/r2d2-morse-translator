@@ -30,3 +30,17 @@ function morseCodeToLetters(code) {
         return reverseMorseMap[code] || '';
     }).join('');
 }
+
+// Encode button handler
+function encode() {
+    const input = document.getElementById('inputText').value;
+    const result = lettersToMorseCode(input);
+    document.getElementById('output').textContent = result || 'No valid characters to encode';
+}
+
+// Decode button handler
+function decode() {
+    const input = document.getElementById('inputText').value;
+    const result = morseCodeToLetters(input);
+    document.getElementById('output').textContent = result || 'Invalid Morse code';
+}
