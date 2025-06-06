@@ -31,6 +31,40 @@ function morseCodeToLetters(code) {
     }).join('');
 }
 
+// Audio context for beeps
+const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+// Play Morse code as beeps
+function playMorse() {
+    const input = document.getElementById('inputText').value;
+    const morse = lettersToMorseCode(input);
+    let time = audioCtx.currentTime;
+
+    morse.split('').forEach(symbol => {
+        if (symbol === '.') {
+            playBeep(time, 0.1); // Short beep for dot
+            time += 0.2;
+        } else if (symbol === '-') {
+            playBeep(time, 0.3); // Long beep for dash
+            time += 0.4;
+        } else if (symbol === ' ') {
+            time += 0.2; // Space between letters
+        } else if (symbol === '/') {
+            time += 0.6; // Space between words
+        }
+    });
+}
+
+// Generate a beep sound
+function playBeep(startTime, duration) {
+    const oscillator = audioCtx.createOscillator();
+    oscillator.type = 'sine';
+    oscillator.frequency.setValueAtTime(800, startTime);
+    oscillator.connect(audioCtx.destination);
+    oscillator.start(startTime);
+    oscillator.stop(startTime + duration);
+}
+
 // Encode button handler
 function encode() {
     const input = document.getElementById('inputText').value;
