@@ -5,13 +5,13 @@
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Web Audio API](https://img.shields.io/badge/Web%20Audio-API-orange.svg)
 
-## 🛰️ Mission Briefing
+## Mission Briefing
 
 A web-based Morse Code Translator designed to help **R2-D2** encode and decode secret Rebel Alliance messages with droid-like precision. Perfect for galactic communications!
 
 ![Demo Screenshot](screenshot.png) <!-- Add your screenshot file here -->
 
-## ✨ Key Features
+## Key Features
 
 | Feature | Description |
 |---------|-------------|
@@ -21,7 +21,7 @@ A web-based Morse Code Translator designed to help **R2-D2** encode and decode s
 | 🚦 **Input Validation** | Handles invalid inputs gracefully with clear warnings |
 | 🎨 **Immersive UI** | Cyberpunk galactic theme with intuitive controls |
 
-## 🚀 Quick Start
+## Quick Start
 
 1. Clone the repository:
    ```bash
@@ -32,7 +32,7 @@ A web-based Morse Code Translator designed to help **R2-D2** encode and decode s
 
 4. Click Encode/Decode or Play Morse for audio
 
-## 🌐 GitHub Pages Deployment
+## GitHub Pages Deployment
 Push to your GitHub repository:
 
 
@@ -47,7 +47,7 @@ Select main branch and / (root) folder
 Your app will be live at:
 https://Onele-Nongindzi.github.io/r2-d2-morse-translator/
 
-## 🧑‍💻 Development
+## Development
 bash
 #### Create feature branch
 git checkout -b feature/your-feature
@@ -62,14 +62,14 @@ git push origin feature/your-feature
 Type	Input	Output
 Encode	MAY THE FORCE BE WITH YOU	-- .- -.-- / - .... . / ..-. --- .-. -.-. . / -... . / .-- .. - .... / -.-- --- ..-
 Decode	.... . .-.. .--. / -- .	HELP ME
-## ⚠️ Technical Notes
+## Technical Notes
 - Requires browser supporting Web Audio API
 
 - Supported characters: A-Z, 0-9, basic punctuation (.,!?)
 
 - Word separation: / in Morse code, space in text
 
-## 📜 License
+## License
 MIT © Onele Nongindzi
 
 This is the way! May the Force be with you.
