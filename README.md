@@ -49,21 +49,21 @@ https://Onele-Nongindzi.github.io/r2-d2-morse-translator/
 
 ## 🧑‍💻 Development
 bash
-### Create feature branch
+#### Create feature branch
 git checkout -b feature/your-feature
 
-### Commit changes
+#### Commit changes
 git add .
 git commit -m "Add new feature"
 
-# Push and create PR
+#### Push and create PR
 git push origin feature/your-feature
 📚 Morse Code Examples
 Type	Input	Output
 Encode	MAY THE FORCE BE WITH YOU	-- .- -.-- / - .... . / ..-. --- .-. -.-. . / -... . / .-- .. - .... / -.-- --- ..-
 Decode	.... . .-.. .--. / -- .	HELP ME
 ## ⚠️ Technical Notes
-Requires browser supporting Web Audio API
+- Requires browser supporting Web Audio API
 
 - Supported characters: A-Z, 0-9, basic punctuation (.,!?)
 
@@ -71,9 +71,5 @@ Requires browser supporting Web Audio API
 
 ## 📜 License
 MIT © Onele Nongindzi
-
-- Requires a modern browser with Web Audio API support for beeps.
-- Supports standard Morse code characters (A-Z, 0-9, .,!?, space).
-- Morse code uses / for word separation.
 
 This is the way! May the Force be with you.
