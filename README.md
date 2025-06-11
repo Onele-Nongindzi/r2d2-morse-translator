@@ -26,11 +26,11 @@ A web-based Morse Code Translator designed to help **R2-D2** encode and decode s
 1. Clone the repository:
    ```bash
    git clone https://github.com/Onele-Nongindzi/r2-d2-morse-translator.git
-Open index.html in any modern browser
+2. Open index.html in any modern browser
 
-Enter text or Morse code in the input field
+3. Enter text or Morse code in the input field
 
-Click Encode/Decode or Play Morse for audio
+4. Click Encode/Decode or Play Morse for audio
 
 ## 🌐 GitHub Pages Deployment
 Push to your GitHub repository:
