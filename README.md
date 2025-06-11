@@ -9,7 +9,7 @@
 
 A web-based Morse Code Translator designed to help **R2-D2** encode and decode secret Rebel Alliance messages with droid-like precision. Perfect for galactic communications!
 
-![Demo Screenshot](screenshot.png) <!-- Add your screenshot file here -->
+![R2-D2 Morse Translator Interface](Screenshot%20(20).png) <!-- Add your screenshot file here -->
 
 ## Key Features
 
