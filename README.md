@@ -35,7 +35,7 @@ A web-based Morse Code Translator designed to help **R2-D2** encode and decode s
 ## 🌐 GitHub Pages Deployment
 Push to your GitHub repository:
 
-```bash
+
 git remote add origin https://github.com/Onele-Nongindzi/r2-d2-morse-translator.git
 git push -u origin main
 Enable GitHub Pages:
